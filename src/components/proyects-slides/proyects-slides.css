@@ -1,0 +1,26 @@
+.tittle-card{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: beige;
+}
+
+.text-card{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: beige;
+}
+
+.subtittle-card{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    font-size: 1.8rem;
+    color: beige;
+}
+
+.slide-backgrounds{
+    background-color: #05050565;
+    border: 1px solid #00000059;
+    border-radius: 12px;
+}

@@ -1,0 +1,131 @@
+
+
+#habilidades{
+    background-color: #5c6669;
+    overflow-y: hidden;
+}
+
+.techs-containers{
+    width: 12rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.techs-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+.techs-subtitle{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.techs-containers:hover{
+    filter: brightness(1.50);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.techs-icon{
+    height: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.javascript{
+    background-color: #fcd34d96;
+    border: 1px solid #fcd34d96;
+}
+.typescript{
+    background-color: #0079cf67;
+    border: 1px solid #0078cf;
+}
+.html-{
+    background-color: #ff91008c;
+    border: 1px solid #ff9100;
+}
+.css-{
+    background-color: #0170ba75;
+    border: 1px solid #0170ba;
+}
+.react{
+    background-color: #61dafb9c;
+    border: 1px solid #61dafb;
+}
+.redux{
+    background-color: #764abc3b;
+    border: 1px solid #764abc;
+}
+.angular{
+    background-color: #dd00306b;
+    border: 1px solid #dd0031;
+}
+.express{
+    background-color: #05050565;
+    border: 1px solid #00000059;
+}
+.node{
+    background-color: #529f4173;
+    border: 1px solid #529f41;
+}
+.sql{
+    background-color: #2686cf70;
+    border: 1px solid #2687cf;
+}
+.ph-{
+    background-color: #229cff7a;
+    border: 1px solid #229cff;
+}
+.mongo{
+    background-color: #529f4173;
+    border: 1px solid #529f41;
+}
+
+
+
+
+
+
+.idea-image{
+    width: 15rem;
+    height: 15rem;
+}
+.habilidades__title{
+    font-size: 5rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+.habilidades-text{
+    color: #FCD34D;
+}
+.habilidades-containers{
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.048);
+    background-color: rgba(70, 70, 70, 0.479);
+    padding: 9px;
+    backdrop-filter: blur(5px);
+}
+.habilidades-container{
+    border-radius: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+
+@media (max-width: 1150px) {
+    #habilidades{
+        background-color: #5c6669;
+        overflow-y: auto;
+        padding-top: 20rem;
+    }
+}

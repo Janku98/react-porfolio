@@ -1,0 +1,16 @@
+.slide{
+    height: calc(100vh - 25rem);
+}
+
+.proyects{
+    background-color: dimgrey;
+    overflow-y: hidden;
+}
+
+
+@media (max-width: 1150px) {
+    .proyects{
+        background-color: dimgrey;
+        overflow-y: auto;
+    }
+}

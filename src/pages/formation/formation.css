@@ -1,0 +1,78 @@
+
+#formacion{
+    background-color: rgb(146, 142, 142);
+    overflow-y: hidden;
+}
+.formacion-title{
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+.formacion-subtitle{
+    font-size: 2rem;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+}
+.formation-card{
+    border-radius: 14px;
+    width: 100%;
+}
+.formation-card:hover{
+    filter: brightness(1.20);
+
+}
+.henry{
+    background-color: rgba(70, 70, 70, 0.479);
+}
+.iico{
+    background-color: rgba(70, 70, 70, 0.479);
+}
+.open-english{
+    background-color: rgba(70, 70, 70, 0.479);
+}
+.clan-fest{
+    background-color: rgba(70, 70, 70, 0.479);
+}
+.formation__card__texts{
+    font-size: 1rem;
+}
+.formacion-highlight{
+    color: #FCD34D;
+}
+
+.formation-button{
+    padding: 4px 10px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 12px;
+}
+.formation-button:hover{
+    cursor: pointer;
+    filter: brightness(1.25);
+}
+
+
+
+@media (max-width: 1150px) {
+    #formacion{
+        background-color: rgb(146, 142, 142);
+        overflow-y: auto;
+    }
+
+    .formacion-subtitle{
+        font-size: 1rem;
+        width: 100%;
+        font-weight: 700;
+        color: white;
+    }
+    .formation__card__texts{
+        font-size: 0.8rem;
+    }
+}

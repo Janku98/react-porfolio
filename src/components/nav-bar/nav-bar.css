@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #1f1e1e;
+    color: darkgray;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar__item{
+    border-radius: 12px;
+    background-color: rgb(68, 67, 67);
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__item:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(127, 156, 46));
+    cursor: pointer;
+}
+.navbar > ul > a {
+    width: 100%;
+}
+
+.selected{
+    filter: invert(79%) sepia(28%) saturate(922%) hue-rotate(356deg) brightness(104%) contrast(98%);
+}
+
+
+@media (max-width: 1150px) {
+    li{
+        font-size: 0.7rem;
+    }
+}
