@@ -4,16 +4,6 @@
 }
 
 
-.my-photo{
-    background-image: url('../../assets/images/foto-mia.JPG');
-    background-size: cover;
-    width: 32rem;
-    height: 29rem;
-    box-shadow: 10px 10px 70px 70px #252D31 inset;
-    filter: drop-shadow(0 0 0.75rem rgb(97, 97, 97));
-    border-radius: 50%;
-    margin-left: 2rem;
-}
 
 
 .title_1{
