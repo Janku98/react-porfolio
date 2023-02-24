@@ -26,8 +26,31 @@
 }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1024px) {
     li{
         font-size: 0.7rem;
     }
+    .navbar__item{
+        border-radius: 12px;
+        background-color: rgb(68, 67, 67);
+        width: 7rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+@media (max-width: 640px) { 
+    .navbar__item{
+        border-radius: 12px;
+        background-color: rgb(68, 67, 67);
+        width: 3rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+    }
+ }

@@ -1,7 +1,5 @@
-
-
 #habilidades{
-    background-color: #5c6669;
+    background-color: #252D31;
     overflow-y: hidden;
 }
 
@@ -109,23 +107,36 @@
 .habilidades-containers{
     display: flex;
     flex-direction: column;
-    border-radius: 14px;
-    border: 1px solid rgba(0, 0, 0, 0.048);
+    height: 80vh;
     background-color: rgba(70, 70, 70, 0.479);
     padding: 9px;
     backdrop-filter: blur(5px);
 }
-.habilidades-container{
-    border-radius: 14px;
-    border: 1px solid rgba(0, 0, 0, 0.603);
-    background-color: rgba(0, 0, 0, 0.048);
+
+
+
+@media (max-width: 1024px) {
+    #habilidades{
+        background-color: #252D31;
+        overflow-y: auto;
+        padding-top: 0rem;
+    }
+    .habilidades-containers{
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+        width: 100%;
+        background-color: #252D31;
+        backdrop-filter: blur(5px);
+        justify-content: center;
+    }
+    .idea-image{
+        width: 8rem;
+        height: 8rem;
+    }
+
 }
 
-
-@media (max-width: 1150px) {
-    #habilidades{
-        background-color: #5c6669;
-        overflow-y: auto;
-        padding-top: 20rem;
-    }
+@media (max-width: 640px) { 
+    
 }

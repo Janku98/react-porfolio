@@ -21,16 +21,13 @@ const AboutMe = () => {
                          FullStack Developer
                     </span>
 
-                    <div className='h-5'></div>
+                    <div className='h-2 sm:h-5'></div>
 
                     <span className="sub__title">
                         Con cariño hacia el FrontEnd
                     </span>
                     <span className="sub__title">
-                        Trabajo mejor con FeedBack
-                    </span>
-                    <span className="sub__title">
-                        Actualmente me encuentro estudiando Python con intenciones encaminarme hacia I.A. y Machine Learning                                          
+                        Trabajo mejor con tú FeedBack
                     </span>
 
                     <a href={cv} download>

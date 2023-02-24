@@ -15,16 +15,16 @@ const NavBar = () => {
 
 
     return(
-        <div className="w-screen h-screen flex flex-row">
+        <div className="w-screen h-screen flex flex-col lg:flex-row">
 
-            <div className="w-1/12 h-full flex flex-col justify-between navbar px-3">
+            <div className="w-full h-full lg:w-1/12 lg:h-full flex flex-row lg:flex-col justify-center lg:justify-between navbar px-10 lg:px-3">
 
-                <div className="flex w-full flex-col h-36 justify-center items-center">
+                <div className="hidden lg:flex w-full flex-col h-36 justify-center items-center">
                     <img alt="brackets-icon" src={codeicon} className="w-24 h-16 transition-all hover:brightness-150 hover:drop-shadow-xl"/>
                     <h2 className="hover:text-amber-300 hover:brightness-150 transition-all ">Fronted Dev</h2>
                 </div>
 
-                <ul className="flex flex-col w-full justify-center items-center">                    
+                <ul className="flex flex-row lg:flex-col w-full justify-center items-center my-8 gap-2">                    
                     <Link to={`/`}
                          onClick={()=>selectItem(1)}>
                         <li className={itemSelected=== 1 ? "selected navbar__item transition-all" : "navbar__item transition-all"}
@@ -33,7 +33,7 @@ const NavBar = () => {
                         </li>
                     </Link>
 
-                    <div className="navbar__separator my-3"></div>
+                    <div className="navbar__separator my-3 sm:mx-5"></div>
 
                     <Link to={`/skills`}
                          onClick={()=>selectItem(2)}>
@@ -42,7 +42,7 @@ const NavBar = () => {
                         </li>
                     </Link>
 
-                    <div className="navbar__separator my-3"></div>
+                    <div className="navbar__separator my-3 sm:mx-5"></div>
 
                     <Link to={`/formation`}  
                          onClick={()=>selectItem(3)}>
@@ -51,7 +51,7 @@ const NavBar = () => {
                         </li>
                     </Link>
 
-                    <div className="navbar__separator my-3"></div>
+                    <div className="navbar__separator my-3 sm:mx-5"></div>
 
                     <Link to={`/proyects`}
                          onClick={()=>selectItem(4)}>
@@ -60,7 +60,7 @@ const NavBar = () => {
                         </li>
                     </Link>
 
-                    <div className="navbar__separator my-3"></div>
+                    <div className="navbar__separator my-3 sm:mx-5"></div>
 
                     <Link to={`/contact`}
                          onClick={()=>selectItem(5)}>
@@ -71,7 +71,7 @@ const NavBar = () => {
 
                 </ul>
 
-                <div className="flex w-full h-24">
+                <div className="hidden lg:flex w-full h-24">
 
                 </div>
 

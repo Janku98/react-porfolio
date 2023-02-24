@@ -3,14 +3,15 @@
 }
 
 .proyects{
-    background-color: dimgrey;
+    background-color: #252D31;
     overflow-y: hidden;
 }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1024px) {
     .proyects{
-        background-color: dimgrey;
+        background-color: #252D31;
         overflow-y: auto;
+        width: 100vw;
     }
 }

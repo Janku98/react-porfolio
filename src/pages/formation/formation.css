@@ -1,7 +1,8 @@
 
 #formacion{
-    background-color: rgb(146, 142, 142);
+    background-color: #252D31;
     overflow-y: hidden;
+    width: 100%;
 }
 .formacion-title{
     font-size: 4rem;
@@ -60,10 +61,10 @@
 
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1024px) {
     #formacion{
-        background-color: rgb(146, 142, 142);
         overflow-y: auto;
+        width: 100vw;
     }
 
     .formacion-subtitle{
@@ -75,4 +76,11 @@
     .formation__card__texts{
         font-size: 0.8rem;
     }
+}
+
+
+
+@media (max-width: 640px) { 
+
+
 }

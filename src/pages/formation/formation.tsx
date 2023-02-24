@@ -13,10 +13,10 @@ import linkedinIcon from '../../assets/png/linkedin-icon.png'
 const Formation = () => {
 
     return(
-        <div className="about__me flex flex-row  justify-start p-3 h-full w-full" id="formacion">
+        <div className="flex flex-col lg:flex-row  justify-start p-3 h-full w-full" id="formacion">
 
                 
-        <div className="w-1/3 flex flex-col items-center px-4">
+        <div className="w-full lg:w-1/3 flex flex-col items-center px-4">
             <span className="formacion-title animate-pulse">Formación</span>
 
             <div className="formation-card iico h-64 flex flex-row p-6 mb-5 transition-all">
@@ -59,7 +59,7 @@ const Formation = () => {
 
         </div>
 
-        <div className="w-2/3  flex flex-col items-center px-4">
+        <div className="w-full lg:w-2/3  flex flex-col items-center px-4">
             <span className="formacion-title animate-pulse">Experiencia</span>
 
             <div className="formation-card clan-fest flex flex-row p-6 transition-all mb-5">
