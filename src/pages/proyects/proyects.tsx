@@ -20,7 +20,7 @@ const Proyects = () => {
 
 
     return(
-        <div className="proyects p-5 flex  flex-col h-full w-full">
+        <div className="proyects p-5 flex  flex-col">
             <div className="flex sm:h-1/6 w-full items-center">
                 <span className="formacion-title animate-pulse">Proyectos</span>
             </div>

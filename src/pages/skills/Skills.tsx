@@ -19,7 +19,7 @@ import feedbackImage from '../../assets/png/feedback-image.png'
 const Skills = () => {
 
     return(
-        <div className="about__me flex flex-col lg:flex-row items-center p-0 lg:p-3 h-full w-full" id="habilidades">
+        <div className="about__me flex flex-col lg:flex-row items-center p-0 lg:p-3" id="habilidades">
 
             <ul className="habilidades-containers flex flex-col gap-2 sm:w-2/6 items-center">
                 <li>
