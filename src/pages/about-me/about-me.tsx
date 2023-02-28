@@ -7,7 +7,7 @@ import cv from '../../assets/files/cv.pdf'
 const AboutMe = () => {
 
     return(
-        <div className="about__me flex flex-col h-full w-full items-center px-20 justify-center" id="about-me">
+        <div className="about__me flex flex-col items-center px-20 justify-center" id="about-me">
 
             <div className="flex flex-row">
                 <div className="text-white flex flex-col h-full justify-center">
