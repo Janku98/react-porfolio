@@ -8,7 +8,7 @@ import gitIcon from '../../assets/png/git-icon.png';
 
 const Contact = () => {
     return(
-        <div className='h-full w-full flex flex-col p-4 contact'>
+        <div className='flex flex-col p-4 contact'>
             <div className='flex flex-row items-center justify-center h-2/6'>
                 <span className='contact-title'>Contáctame</span>
             </div>
