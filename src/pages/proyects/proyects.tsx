@@ -21,10 +21,10 @@ const Proyects = () => {
 
     return(
         <div className="proyects p-5 flex  flex-col h-full w-full">
-            <div className="flex h-1/6 w-full items-center">
+            <div className="flex sm:h-1/6 w-full items-center">
                 <span className="formacion-title animate-pulse">Proyectos</span>
             </div>
-            <div className="flex justify-center items-center w-full h-5/6 rounded-2xl mb-5">
+            <div className="flex justify-center sm:items-center w-full h-5/6 rounded-2xl mb-5">
                 <Slider className="w-11/12 h-3/5" {...settings}>     
                     <SlideClanFest>
                     </SlideClanFest>

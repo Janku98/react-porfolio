@@ -31,7 +31,6 @@ const SlideBillSystem = (props:any) => {
     }
 
     const openModal = ():void  => {
-        console.log("ass")
         setOpenVideo(true)
     }
 
@@ -47,7 +46,7 @@ const SlideBillSystem = (props:any) => {
             </div>
 
             <div className='flex flex-col w-full h-full '>
-                <div className='flex items-center mb-4'>
+                <div className='flex flex-col sm:flex-row items-center mb-4'>
                     <img alt='proyect-image' src={codeicon}/>
                     <ul className='text-card'>
                         <li>
@@ -65,9 +64,9 @@ const SlideBillSystem = (props:any) => {
                         
                     </ul>
                 </div>
-                <div className='flex flex-col w-full justify-center mb-4'>
+                <div className='flex flex-col w-full justify-center items-center mb-4'>
                     <span className='subtittle-card'>Tecnologias:</span>
-                    <div className='flex flex-row w-full flex-wrap gap-2'>                      
+                    <div className='flex flex-row justify-center w-full flex-wrap gap-2'>                      
                         <TechJs></TechJs>
                         <TechNode></TechNode>
                         <TechExpress></TechExpress>
@@ -78,7 +77,7 @@ const SlideBillSystem = (props:any) => {
                     
                 </div>
 
-                <div className='flex flex-row items-center w-full justify-center mb-4'>
+                <div className='flex flex-col sm:flex-row items-center w-full justify-center mb-4 gap-2'>
                     <div className='flex flex-row items-center justify-center mr-4'>
                         <span>Repositorios: </span> 
 

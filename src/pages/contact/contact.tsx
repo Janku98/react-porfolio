@@ -15,25 +15,25 @@ const Contact = () => {
 
             <div className='flex flex-col items-center justify-center gap-5'>
 
-                <div className='flex flex-row justify-center items-center w-full h-20 rounded-2xl contact-card-hover'
+                <div className='items-center w-full h-20 rounded-2xl contact-card-hover'
                     onClick={()=> window.open("https://www.linkedin.com/in/facundo-jankunas/", "_blank")}>
-                    <img alt='linkedin-profile' src={linkedinIcon} className='w-10 h-10 mr-5'/>
+                    <img alt='linkedin-profile' src={linkedinIcon} className='w-6 h-6 lg:w-10 lg:h-10 mr-5'/>
                     <span className='contact-card-title'>Ir a mi Linkedin</span>
                 </div>
 
-                <div className='flex flex-row justify-center items-center w-full h-20 rounded-2xl contact-card'>
-                    <img alt='tel-icon' src={wppIcon} className='w-10 h-10 mr-5'/>
+                <div className='items-center w-full h-20 rounded-2xl contact-card'>
+                    <img alt='tel-icon' src={wppIcon} className='w-6 h-6 lg:w-10 lg:h-10 mr-5'/>
                     <span className='contact-card-title'>Cel/Wpp: (+54)351 5959721</span>
                 </div>
 
-                <div className='flex flex-row justify-center items-center w-full h-20 rounded-2xl contact-card'>
-                    <img alt='email-icon' src={emailIcon} className='w-10 h-10 mr-5'/>
+                <div className='items-center w-full h-20 rounded-2xl contact-card'>
+                    <img alt='email-icon' src={emailIcon} className='w-6 h-6 lg:w-10 lg:h-10 mr-5'/>
                     <span className='contact-card-title'>facundojankunas@hotmail.com.ar</span>
                 </div>
 
-                <div className='flex flex-row justify-center items-center w-full h-20 rounded-2xl contact-card-hover'
+                <div className='items-center w-full h-20 rounded-2xl contact-card-hover'
                 onClick={()=> window.open("https://github.com/Janku98", "_blank")}>
-                    <img alt='git-profile' src={gitIcon} className='w-10 h-10 mr-5'/>
+                    <img alt='git-profile' src={gitIcon} className='w-6 h-6 lg:w-10 lg:h-10 mr-5'/>
                     <span className='contact-card-title'>Ir a mi GitHub</span>
                 </div>
             </div>

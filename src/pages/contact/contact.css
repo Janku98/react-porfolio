@@ -1,5 +1,6 @@
 .contact{
     background-color: #252D31;
+    width: 100vw;
 }
 
 .contact-title{
@@ -13,6 +14,8 @@
     border: solid 1px #FCD34D;
     padding: 1rem 1.5rem;
     width: 50%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .contact-card-title{
@@ -27,6 +30,8 @@
     border: solid 1px #FCD34D;
     padding: 1rem 1.5rem;
     width: 50%;
+    display: flex;
+    justify-content: flex-start;
 }
 .contact-card-hover:hover{
     filter: brightness(115%);
@@ -38,9 +43,24 @@
 
 @media (max-width: 1150px) {
     .contact-card-title{
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 700;
-        line-height:2rem;
+        line-height: 1.2rem;
         color: rgb(245, 242, 237);
+    }
+    .contact-title{
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 5.5rem;
+    }
+    .contact-card-hover{
+        border: solid 1px #FCD34D;
+        padding: 1rem 1.5rem;
+        width: 90%;
+    }
+    .contact-card{
+        border: solid 1px #FCD34D;
+        padding: 1rem 1.5rem;
+        width: 90%;
     }
 }

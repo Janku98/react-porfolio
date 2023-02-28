@@ -19,7 +19,7 @@ const Formation = () => {
         <div className="w-full lg:w-1/3 flex flex-col items-center px-4">
             <span className="formacion-title animate-pulse">Formación</span>
 
-            <div className="formation-card iico h-64 flex flex-row p-6 mb-5 transition-all">
+            <div className="formation-card iico h-full sm:h-64 flex flex-row p-6 mb-5 transition-all">
                 <div className="w-1/3 flex items-center justify-center">
                     <img alt="secundaria-icon" src={iicoIcon} className="w-32 h-18"/>
                 </div>
@@ -32,7 +32,7 @@ const Formation = () => {
                 </div>
             </div>
 
-            <div className="formation-card henry h-64 flex flex-row p-6 mb-5 transition-all">
+            <div className="formation-card henry h-full sm:h-64 flex flex-row p-6 mb-5 transition-all">
                 <div className="w-1/3 flex items-center justify-center">
                     <img alt="bootcamp-icon" src={henryIcon} className="w-32 h-18"/>
                 </div>
@@ -45,7 +45,7 @@ const Formation = () => {
                 </div>
             </div>
 
-            <div className="formation-card open-english h-64 flex flex-row p-6 transition-all">
+            <div className="formation-card open-english h-full sm:h-64 flex flex-row p-6 transition-all">
                 <div className="w-1/3 flex items-center justify-center">
                     <img alt="open-english-icon" src={openEnglishIcon} className="w-32 h-18"/>
                 </div>
@@ -72,7 +72,7 @@ const Formation = () => {
                     <span>Proyecto grupal realizado por medio de metodologías ágiles, que consta en una plataforma web para crear, localizar, adquirir y vender entradas a eventos</span>
                     <span><span className="formacion-highlight">Tecnologias:</span> Typescript / React / Redux / NodeJS / Express / MongoDB / Mongoose / Socket.io</span>
                     <span>Agosto 2021 - Septiembre 2021</span>
-                    <div className="flex flex-row gap-2">
+                    <div className="flex flex-col sm:flex-row gap-2">
                         <div className="formation-button" onClick={()=> window.open("https://jolly-booth-281355.netlify.app/", "_blank")}>
                             <img alt="visit-icon" className="w-5 h-5" src={visitIcon}/>
                             <span>Visitar</span>
@@ -102,7 +102,7 @@ const Formation = () => {
                     <span>-Responsable de encarar las tareas propuestas por el lider técnico de manera individual.</span>
                     <span><span className="formacion-highlight">Tecnologias:</span> Typescript / React / Redux / Angular / Tailwind</span>
                     <span>Abril 2022 - Actualidad</span>
-                    <div className="flex flex-row gap-2">
+                    <div className="flex flex-col sm:flex-row gap-2">
                         <div className="formation-button" onClick={()=> window.open("https://www.bettertechnologies.world/en", "_blank")}>
                             <img alt="visit-icon" className="w-5 h-5" src={visitIcon}/>
                             <span>Visitar</span>

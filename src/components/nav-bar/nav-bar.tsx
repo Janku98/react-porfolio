@@ -17,7 +17,7 @@ const NavBar = () => {
     return(
         <div className="w-screen h-screen flex flex-col lg:flex-row">
 
-            <div className="w-full h-full lg:w-1/12 lg:h-full flex flex-row lg:flex-col justify-center lg:justify-between navbar px-10 lg:px-3">
+            <div className="w-full h-full  lg:w-1/12 lg:h-full flex flex-row lg:flex-col justify-center lg:justify-between navbar px-10 lg:px-3">
 
                 <div className="hidden lg:flex w-full flex-col h-36 justify-center items-center">
                     <img alt="brackets-icon" src={codeicon} className="w-24 h-16 transition-all hover:brightness-150 hover:drop-shadow-xl"/>

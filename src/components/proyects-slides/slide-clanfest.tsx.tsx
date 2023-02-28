@@ -36,12 +36,12 @@ const SlideClanFest = (props:any) => {
 
     return(
         <div className='h-full w-full flex flex-col slide-backgrounds p-4'>
-            <div className='w-full  flex justify-center '>
+            <div className='w-full flex justify-center '>
                 <span className='tittle-card'>ClanFest</span>
             </div>
 
             <div className='flex flex-col w-full h-full '>
-                <div className='flex items-center mb-4'>
+                <div className='flex flex-col sm:flex-row items-center mb-4'>
                     <img alt='proyect-image' src={clanfestIcon}/>
                     <ul className='text-card'>
                         <li>
@@ -62,9 +62,9 @@ const SlideClanFest = (props:any) => {
                         
                     </ul>
                 </div>
-                <div className='flex flex-col w-full justify-center mb-4'>
-                    <span className='subtittle-card'>Tecnologias:</span>
-                    <div className='flex flex-row w-full flex-wrap gap-2'>
+                <div className='flex flex-col w-full justify-center items-center mb-4'>
+                    <span className='tittle-card'>Tecnologias:</span>
+                    <div className='flex flex-row justify-center w-full flex-wrap gap-2'>
                         
                         <TechJs></TechJs>
                         <TechTs></TechTs>
@@ -78,16 +78,16 @@ const SlideClanFest = (props:any) => {
                     
                 </div>
 
-                <div className='flex flex-row items-center w-full justify-center mb-4'>
-                    <div className='flex flex-row items-center justify-center mr-4'>
+                <div className='flex flex-col sm:flex-row items-center w-full justify-center mb-4'>
+                    <div className='flex flex-col sm:flex-row items-center justify-center gap-2 mr-4'>
                         <span>Repositorios: </span> 
-                        <div className="formation-button mx-2" onClick={()=> window.open("https://github.com/NaniBM/ClanFest-API", "_blank")}>
+                        <div className="formation-button w-full sm:w-fit mx-2" onClick={()=> window.open("https://github.com/NaniBM/ClanFest-API", "_blank")}>
                             <img alt="git-icon" 
                                 className="w-5 h-5 ml-2" 
                                 src={gitIcon}/>
                             <span>Backend</span>
                         </div>
-                        <div className="formation-button" onClick={()=> window.open("https://github.com/christopherBryan1996/PF", "_blank")}>
+                        <div className="formation-button w-full sm:w-fit" onClick={()=> window.open("https://github.com/christopherBryan1996/PF", "_blank")}>
                             <img alt="git-icon" 
                                 className="w-5 h-5 mr.2" 
                                 src={gitIcon}/>
@@ -95,17 +95,17 @@ const SlideClanFest = (props:any) => {
                         </div>
                     </div>
 
-                    <div className='flex flex-row items-center justify-center mr-4'>
+                    <div className='flex flex-col sm:flex-row items-center justify-center mr-4'>
                         <span>Sitio: </span> 
-                        <div className="formation-button ml-2" onClick={()=> window.open("https://jolly-booth-281355.netlify.app/", "_blank")}>
+                        <div className="formation-button w-full sm:w-fit ml-2" onClick={()=> window.open("https://jolly-booth-281355.netlify.app/", "_blank")}>
                             <img alt="visit-icon" className="w-5 h-5" src={visitIcon}/>
                             <span>Visitar</span>
                         </div>
                     </div>
 
-                    <div className='flex flex-row items-center justify-center'>
+                    <div className='flex flex-col sm:flex-row items-center justify-center'>
                         <span>Ver video aquí: </span> 
-                        <div onClick={openModal} className="formation-button ml-2">
+                        <div onClick={openModal} className="formation-button w-full sm:w-fit ml-2">
                             <img alt="visit-icon" className="w-5 h-5" src={playIcon}/>
                             <span>Ver</span>
                             
