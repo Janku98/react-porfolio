@@ -21,7 +21,7 @@ const Skills = () => {
     return(
         <div className="about__me flex flex-col lg:flex-row items-center p-0 lg:p-3" id="habilidades">
 
-            <ul className="habilidades-containers flex flex-col gap-2 sm:w-2/6 items-center">
+            <ul className="habilidades-containers flex flex-col gap-2 sm:w-2/6  items-center">
                 <li>
                     <span className="techs-title animate-pulse">Tecnologias:</span>
                 </li>
@@ -68,11 +68,8 @@ const Skills = () => {
                     <img className="techs-icon" alt="sql-icon" src={sqlIcon}/>
                     <span>SQL</span>
                 </li>
-                <span className="techs-subtitle animate-pulse">
-                     Software
-                </span>
                 <li className="techs-containers ph-">
-                    <img className="techs-icon h-8 h-8" alt="sql-icon" src={phIcon}/>
+                    <img className="techs-icon" alt="sql-icon" src={phIcon}/>
                     <span className="relative right-5">Photoshop</span>
                 </li>
             </ul>
@@ -81,18 +78,18 @@ const Skills = () => {
                             
                 <span className="habilidades__title animate-pulse">Habilidades</span>
 
-                <div className=" flex flex-row w-full items-center text-start">
+                <div className="flex flex-row w-full items-center text-start">
                     <img alt="idea-image" className="idea-image" src={productImage}/>
-                    <span className="w-96 text-sm lg:text-2xl habilidades-text">Capacidad de encarar proyectos sin necesidad de una constante supervisión. Trabajo cumpliento fechas de entregas y features del proyecto.</span>
+                    <span className="w-96 text-sm xl:text-2xl habilidades-text">Capacidad de encarar proyectos sin necesidad de una constante supervisión. Trabajo cumpliento fechas de entregas y features del proyecto.</span>
                 </div>
 
                 <div className="flex flex-row w-full items-center text-end justify-end">
-                    <span className="w-96 text-sm lg:text-2xl habilidades-text">Aportar ideas frescas que puedan mejorar tiempos, costos o algun otro ámbito de producción</span>
+                    <span className="w-96 text-sm xl:text-2xl habilidades-text">Aportar ideas frescas que puedan mejorar tiempos, costos o algun otro ámbito de producción</span>
                     <img  alt="idea-image" className="idea-image" src={ideaImage}/>
                 </div>
                 <div className="flex flex-row w-full items-center">
                     <img alt="idea-image" className="idea-image" src={feedbackImage}/>
-                    <span className="w-96 text-sm lg:text-2xl habilidades-text">Acostumbrado a trabajar con feedback para mejorar en lo que sea posible mejorar.</span>
+                    <span className="w-96 text-sm xl:text-2xl habilidades-text">Acostumbrado a trabajar con feedback para mejorar en lo que sea posible mejorar.</span>
                 </div>
             </div>
                         

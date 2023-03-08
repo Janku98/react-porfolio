@@ -113,7 +113,21 @@
     backdrop-filter: blur(5px);
 }
 
-
+@media (max-width: 1280px) {
+    .idea-image{
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    .techs-containers{
+        font-size: 0.8rem;
+    }
+    .techs-icon{
+        height: 1.8rem;
+        height: 1.8rem;
+        margin-right: 1rem;
+    }
+    
+}
 
 @media (max-width: 1024px) {
     #habilidades{
@@ -133,6 +147,18 @@
     .idea-image{
         width: 8rem;
         height: 8rem;
+    }
+    .techs-containers{
+        width: 12rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        border-radius: 15px;
+        padding-left: 0.5rem;
+        padding-right: 2rem;
+        align-items: center;
+        color: white;
+        font-size: 1.5rem;
     }
 
 }
