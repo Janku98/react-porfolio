@@ -18,7 +18,7 @@ import TechHtml from '../tech-capsules/tech-html';
 const SlideToDoApp = (props:any) => {
 
     const URL='https://www.youtube.com/embed/Px_TNH7IQrk';
-    const REPOSITORY_URL='https://github.com/Janku98/ClientBillSystem'
+    const REPOSITORY_URL='https://github.com/Janku98/tach-technical/tree/master'
 
 
     const [openVideo, setOpenVideo] = useState(false);
