@@ -13,7 +13,7 @@ const Contact = () => {
                 <span className='contact-title'>Contáctame</span>
             </div>
 
-            <div className='flex flex-col items-center justify-center gap-5'>
+            <div className='w-full flex flex-col items-center justify-center gap-5'>
 
                 <div className='items-center w-full h-20 rounded-2xl contact-card-hover'
                     onClick={()=> window.open("https://www.linkedin.com/in/facundo-jankunas/", "_blank")}>
